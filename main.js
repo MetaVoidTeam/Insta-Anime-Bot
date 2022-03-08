@@ -1,6 +1,7 @@
 const Insta = require('./insta.js');
 const mal = require('mal-scraper');
 const axios = require('axios')
+const { performance } = require('perf_hooks')
 const client = new Insta.Client();
 
 client.on('connected', () => {
