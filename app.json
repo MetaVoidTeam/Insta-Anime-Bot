@@ -1,0 +1,20 @@
+{
+    "name": "InstaChat",
+    "description": "An Anime based Instagram bot project",
+    "repository": "https://github.com/MetaVoidTeam/Insta-Anime-Bot",
+    "env": {
+        "username": {
+            "description": "Instagram Username of chatbot account (without @)",
+            "required": true
+        },
+        "password": {
+            "description": "Instagram Password Here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
